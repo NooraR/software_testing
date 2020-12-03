@@ -32,4 +32,6 @@ function eq(value, other) {
   return value == other || (value !== value && other !== other)
 }
 
-export default eq
+module.exports = eq;
+
+// export default eq
